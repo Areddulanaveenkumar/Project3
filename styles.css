@@ -1,0 +1,52 @@
+/* Header Styles */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Carousel Styles */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Custom CSS Flex Div */
+.custom-flex .flex-item {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Photo Gallery Styles */
+.photo-gallery .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.photo-gallery .grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Bootstrap Card Styles */
+#cardSection .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cardSection .btn-primary:hover {
+    background-color: #007bff;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.back-to-top {
+    margin-top: 20px;
+}
